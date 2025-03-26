@@ -15,3 +15,9 @@ mysql> GRANT ALL PRIVILEGES ON jetbar.* TO 'mohammad'@'localhost';
 
 mysql> FLUSH PRIVILEGES;
 ```
+
+```sql
+SET FOREIGN_KEY_CHECKS = 0;
+drop table if exists users;
+SET FOREIGN_KEY_CHECKS = 1;
+```
