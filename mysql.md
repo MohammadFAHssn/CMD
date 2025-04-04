@@ -33,3 +33,8 @@ ALTER TABLE users DROP COLUMN name;
 USE jetbar;
 SELECT * from users;
 ```
+
+```sql
+USE jetbar;
+SHOW TABLES;
+```
