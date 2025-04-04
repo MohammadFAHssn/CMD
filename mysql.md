@@ -28,3 +28,8 @@ SET FOREIGN_KEY_CHECKS = 1;
 USE jetbar;
 ALTER TABLE users DROP COLUMN name;
 ```
+
+```sql
+USE jetbar;
+SELECT * from users;
+```
